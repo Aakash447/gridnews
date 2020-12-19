@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: 5px;
+    border-radius: 15px;
+}
+.btn-primary{
+    background-color: blue;
+    color:white;
+}
+.btn-secondary{
+    background-color: rgb(124, 124, 206);
+    color:white;
+}
+.btn-danger{
+    background-color: red;
+    color:white;
+}
+.light-line{
+    width: 100%;
+    // height: 1px;
+    border-top:1px solid #c9c9c9;
+}

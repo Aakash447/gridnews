@@ -1,11 +1,12 @@
 #result{
     .container{
-        display:flex;
+        display:grid;
+        grid-template-columns: auto auto;
     }
     .box{
         margin:50px;
-        width: 45%;
-        height: 500px;
+        // width: 40vw;
+        // height: 500px;
         // background: wheat;
     }
 }

@@ -1,7 +1,7 @@
 import {
-  FETCH_USERS_REQUEST,
-  FETCH_USERS_SUCCESS,
-  FETCH_USERS_FAILURE,
+  FETCH_POLLS_REQUEST,
+  FETCH_POLLS_SUCCESS,
+  FETCH_POLLS_FAILURE,
 } from "../types";
 
 const initialState = {
@@ -12,18 +12,18 @@ const initialState = {
 
 const PollsReducer = (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_USERS_REQUEST:
+    case FETCH_POLLS_REQUEST:
       return {
         ...state,
         loading: true,
       };
-    case FETCH_USERS_SUCCESS:
+    case FETCH_POLLS_SUCCESS:
       return {
         ...state,
         loading: false,
         data:action.payload
       };
-    case FETCH_USERS_FAILURE:
+    case FETCH_POLLS_FAILURE:
       return {
         ...state,
         loading: false,

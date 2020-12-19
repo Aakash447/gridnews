@@ -91,6 +91,16 @@
             width: 300px;
             // background: blue;
             //  padding-top:10px;
+
+            h2:nth-child(1){
+              color:blue;
+            }
+            .firstH2{
+              color:blue
+            }
+            .secondH2{
+              color: green;
+            }
             *{
                 margin-top: 20px;
             }
